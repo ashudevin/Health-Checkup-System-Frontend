@@ -23,7 +23,7 @@ function App() {
     setError(null);
 
     try { 
-      const response = await axios.post('http://127.0.0.1:8000/predict', {
+      const response = await axios.post('https://health-checkup-system-backend.onrender.com/predict', {
         symptoms: selectedSymptoms
       });
       setPrediction(response.data);
