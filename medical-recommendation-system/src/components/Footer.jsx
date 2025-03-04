@@ -11,16 +11,6 @@ const Footer = () => {
         </div>
         
         <div className="footer-section">
-          <h3>Quick Links</h3>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-          </ul>
-        </div>
-        
-        <div className="footer-section">
           <h3>Important Notice</h3>
           <p>The information provided is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider.</p>
         </div>
