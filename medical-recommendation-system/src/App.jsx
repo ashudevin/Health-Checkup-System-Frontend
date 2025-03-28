@@ -23,7 +23,7 @@ function App() {
     setError(null);
 
     try { 
-      const response = await axios.post('https://health-checkup-system-backend.onrender.com/predict', {
+      const response = await axios.post('https://health-checkup-system-backend-q75x.onrender.com/predict', {
         symptoms: selectedSymptoms
       });
       setPrediction(response.data);
